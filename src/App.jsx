@@ -3,7 +3,7 @@ import AccessAlarmIcon from '@mui/icons-material/AccessAlarm'
 import ThreeDRotation from '@mui/icons-material/ThreeDRotation'
 import Typography from '@mui/material/Typography'
 import {useColorScheme} from '@mui/material/styles'
-import useMediaQuery from '@mui/material/useMediaQuery'
+//import useMediaQuery from '@mui/material/useMediaQuery'
 import InputLabel from '@mui/material/InputLabel'
 import MenuItem from '@mui/material/MenuItem'
 import FormControl from '@mui/material/FormControl'
@@ -43,7 +43,7 @@ function ModeSelect() {
           </Box>
         </MenuItem>
         <MenuItem value='system'>
-          <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
+          <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
             <SettingsBrightnessIcon /> System
             </Box>
         </MenuItem>
